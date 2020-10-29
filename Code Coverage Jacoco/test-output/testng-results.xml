@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="306" started-at="2020-10-29T11:45:53Z" finished-at="2020-10-29T11:45:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="306" started-at="2020-10-29T11:45:53Z" finished-at="2020-10-29T11:45:54Z">
+      <class name="Jacoco.CodeCoverage.TestCodeCoverage">
+        <test-method status="PASS" signature="NegativeTests()[pri:0, instance:Jacoco.CodeCoverage.TestCodeCoverage@573f2bb1]" name="NegativeTests" duration-ms="91" started-at="2020-10-29T11:45:53Z" finished-at="2020-10-29T11:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeTests -->
+        <test-method status="PASS" signature="PostiveTests()[pri:0, instance:Jacoco.CodeCoverage.TestCodeCoverage@573f2bb1]" name="PostiveTests" duration-ms="18" started-at="2020-10-29T11:45:53Z" finished-at="2020-10-29T11:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostiveTests -->
+      </class> <!-- Jacoco.CodeCoverage.TestCodeCoverage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
