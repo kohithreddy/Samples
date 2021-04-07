@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "BDAZE1IMQDWDF06"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://bdaze1imqdl01.dfs.core.windows.net"
+		},
+		"LS_ADLS_MQDW_properties_typeProperties_url": {
+			"value": "https://bdaze1imqdl01.dfs.core.windows.net"
+		},
+		"LS_AKV_EDNA_properties_typeProperties_baseUrl": {
+			"value": "https://bdaze1imqdwkv01.vault.azure.net/"
+		},
+		"LS_AKV_MQDW_properties_typeProperties_baseUrl": {
+			"value": "https://bdaze1imqdwkv01.vault.azure.net/"
+		},
+		"LS_ASQLDB_EDNA_properties_typeProperties_connectionString_secretName": {
+			"value": "KEY-SQL-MQDW"
+		},
+		"LS_ASQLSYN_EDNA_properties_typeProperties_connectionString_secretName": {
+			"value": "KEY-SYN-MQDW"
+		},
+		"LS_FILE_SAPSTAGING_properties_typeProperties_host": {
+			"value": "d:\\SAPBWStaging"
+		},
+		"LS_FILE_SAPSTAGING_properties_typeProperties_userId": {
+			"value": "svcMQDW"
+		},
+		"LS_SQL_MQDW_properties_typeProperties_connectionString_secretName": {
+			"value": "KEY-SQL-MQDW"
+		},
+		"LS_SYN_MQDW_properties_typeProperties_connectionString_secretName": {
+			"value": "KEY-SYN-MQDW"
+		},
+		"LS_SYN_MQDW_PRD_properties_typeProperties_connectionString_secretName": {
+			"value": "KEY-SYN-MQDW-PRD"
+		},
+		"Virtustream_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/3de5bb92-ec90-4c7e-af9b-90c3ed1cae76/resourcegroups/Elanco-EDNA-DEV-Enterprise/providers/Microsoft.DataFactory/factories/BDAZE1IEDNADF01/integrationruntimes/Virtustream"
+		}
+	}
+}
