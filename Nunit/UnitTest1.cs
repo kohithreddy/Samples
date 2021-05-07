@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace DeviNunit
+namespace NunitTest
 {
     [TestFixture]
     public class UnitTest1
