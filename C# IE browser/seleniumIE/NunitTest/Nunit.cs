@@ -35,6 +35,5 @@ namespace NunitTest
         {
             driver.Close();
         }
-
     }
 }
