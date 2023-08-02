@@ -1,0 +1,47 @@
+#Author: Kohith Reddy 
+
+trigger: none
+name: 'DotNet 7.0'
+variables:
+- name: system.debug
+  value: true
+
+
+stages:
+- stage: Build
+  displayName: DotNet7Build
+  jobs:
+  - job: BuildJob
+    displayName: Build_Job_1
+    pool:
+      vmImage: 'Windows-latest'
+    steps:
+
+      - task: UseDotNet@2
+        displayName: 'Use .Net 7.0'
+        inputs:
+         packageType: 'sdk'
+         version: '7.x'
+             
+
+      - task: DotNetCoreCLI@2
+        displayName: 'dotnet restore'
+        inputs:
+          command: 'restore'
+          projects: '$(Build.SourcesDirectory)\DotNet7/ConsoleApp/ConsoleApp.csproj'
+          feedsToUse: 'select'
+        enabled: true
+
+      - task: DotNetCoreCLI@2
+        displayName: 'dotnet build'
+        inputs:
+          command: build
+          projects: '$(Build.SourcesDirectory)\DotNet7/ConsoleApp/ConsoleApp.csproj'
+      - task: DotNetCoreCLI@2
+        displayName: 'dotnet publish'
+        inputs:
+          command: publish
+          publishWebProjects: false
+          projects: '$(Build.SourcesDirectory)\DotNet7/ConsoleApp/ConsoleApp.csproj'
+          zipAfterPublish: false
+          modifyOutputPath: false
