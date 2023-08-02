@@ -12,7 +12,7 @@ stages:
   displayName: DotNet7Build
   jobs:
   - job: BuildJob
-    displayName: Build_Job_1
+    displayName: DotNetBuildJob
     pool:
       vmImage: 'Windows-latest'
     steps:
