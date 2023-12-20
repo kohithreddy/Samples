@@ -1,0 +1,41 @@
+trigger: 
+ branches:
+   include:
+     - vscode
+
+appendCommitMessageToRunName: false
+
+
+
+variables: 
+- name: System.debug
+  value: true
+- name: SKIPAUTOMATICIMAGESCAN 
+  value: true
+
+stages:
+  - stage: One
+    displayName: "one"
+    jobs:
+      - job: alpha
+        pool:
+          vmImage: "Windows-Latest"
+        steps:
+          - task: Maven@4
+            inputs:
+              mavenPomFile: '$(build.sourcesdirectory)\demo\pom.xml'
+              goals: 'clean install'
+              publishJUnitResults: true
+              testResultsFiles: '**/surefire-reports/TEST-*.xml'
+              javaHomeOption: 'JDKVersion'
+              mavenVersionOption: 'Default'
+              mavenAuthenticateFeed: false
+              effectivePomSkip: false
+              sonarQubeRunAnalysis: false
+              
+          - task: PublishTestResults@2
+            displayName: "Show Test Results"
+            inputs:
+              testResultsFormat: 'JUnit'
+              testResultsFiles: '**/surefire-reports/TEST-*.xml'
+              
