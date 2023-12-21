@@ -1,9 +1,9 @@
 # Define variables
-$organization = "KohithFS"
-$projectName = "test"
-$personalAccessToken = "2twb7czbbcu7hpoxblycrmfqvih3v5nyt4qarqiwrqco7v2zaduq"
-$variableGroupName ="fotrrr"
-$desc = "Description of new variable group"
+$organization = "<ORG Name>"
+$projectName = "<Project Name"
+$personalAccessToken = "<Pat Token>"
+$variableGroupName ="<Variable Group Name>"
+$desc = ">Description of new variable group>"
 
 $variables = @{
     "Key1" = @{
