@@ -1,0 +1,1275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCESS_CONTROL_ACCESS_LEVEL" xml:space="preserve">
+    <value>Access Level</value>
+  </data>
+  <data name="ACCESS_CONTROL_ACCESS_LEVEL_DESCR" xml:space="preserve">
+    <value>Select the level of access for this client. Do not select Read/Write if your application includes safety-related outputs.</value>
+  </data>
+  <data name="ACCESS_CONTROL_ENABLED" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="ACCESS_CONTROL_ENABLED_DESCR" xml:space="preserve">
+    <value>Enable access control for this TCM. If False, all users can access TCM resources. If True, you MUST configure a client with TriStation protocol access, or you will be unable to connect to the controller after the next download.</value>
+  </data>
+  <data name="ACCESS_CONTROL_IP_ADDRESS" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="ACCESS_CONTROL_IP_ADDRESS_DESCR" xml:space="preserve">
+    <value>Enter the IP address of the client you want to configure access for.</value>
+  </data>
+  <data name="ACCESS_CONTROL_NETWORK" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="ACCESS_CONTROL_NETWORK_DESCR" xml:space="preserve">
+    <value>Select the network(s) this client can access the TCM on.</value>
+  </data>
+  <data name="ACCESS_CONTROL_PROTOCOLS" xml:space="preserve">
+    <value>Protocols</value>
+  </data>
+  <data name="ACCESS_CONTROL_PROTOCOLS_DESCR" xml:space="preserve">
+    <value>Select the protocol(s) this client can use to access the TCM. Click a value once to select it; click it again to clear the selection.</value>
+  </data>
+  <data name="ACCESS_CONTROL_SUBGROUP_CLIENT" xml:space="preserve">
+    <value>Client {0}</value>
+  </data>
+  <data name="ACCESS_CONTROL_SUBNET_MASK" xml:space="preserve">
+    <value>Subnet Mask</value>
+  </data>
+  <data name="ACCESS_CONTROL_SUBNET_MASK_DESCR" xml:space="preserve">
+    <value>Enter the IP address for the subnet mask. Use this property to create groups of IP addresses with the same access level. The default selects all client IP addresses on the subnet.</value>
+  </data>
+  <data name="ALERT_EXPORT_UNSAVED_CONFIG" xml:space="preserve">
+    <value>ALERT: The configuration has been changed, but not yet saved. Unsaved changes to the configuration will be included in the exported file. Do you want to continue?</value>
+  </data>
+  <data name="ALERT_IMPORT_UNSAVED_CONFIG" xml:space="preserve">
+    <value>ALERT: The configuration has been changed, but not yet saved. Unsaved changes to the configuration will be overwritten by the settings in the imported file. Do you want to continue?</value>
+  </data>
+  <data name="ALERT_MANY_TCPIP_INVALID_ON_SUBNET" xml:space="preserve">
+    <value>One or more Modbus TCP IP addresses are not on the same subnet as the TCM.</value>
+  </data>
+  <data name="COMM_PARAM_DESC_BAUD_RATE" xml:space="preserve">
+    <value>Serial connection transmission speed in bits per second (bps).</value>
+  </data>
+  <data name="COMM_PARAM_DESC_DEFAULT_CONNECTION_TYPE" xml:space="preserve">
+    <value>Default method for connecting to the controller.</value>
+  </data>
+  <data name="COMM_PARAM_DESC_DESIGNATE_TCP_PORT" xml:space="preserve">
+    <value>Select a specific port for transferring a project file to/from the controller.</value>
+  </data>
+  <data name="COMM_PARAM_DESC_IP_ADDRESS" xml:space="preserve">
+    <value>IP address for the TCM port connected to the network.</value>
+  </data>
+  <data name="COMM_PARAM_DESC_NODE_NUMBER" xml:space="preserve">
+    <value>Located on the front panel of the Main Chassis or MP-TCM Baseplate.</value>
+  </data>
+  <data name="COMM_PARAM_DESC_SERIAL_PORT" xml:space="preserve">
+    <value>COM port on TriStation workstation the serial cable is connected to.</value>
+  </data>
+  <data name="COMM_PARAM_DESC_SYSTEM_NAME" xml:space="preserve">
+    <value>Controller name. Use the default or enter your own.</value>
+  </data>
+  <data name="COMM_PARAM_DESC_TCP_PORT" xml:space="preserve">
+    <value>Enter a unique TCP port number. Configure your firewall to allow communication on this port. </value>
+  </data>
+  <data name="COMM_PARAM_DESC_UDP_PORT" xml:space="preserve">
+    <value>Port used for connection. Must be same as in TCM configuration.                 </value>
+  </data>
+  <data name="COMM_PARAM_DESC_USE_NETWORK_CONNECTION" xml:space="preserve">
+    <value>Configure a connection to the controller over the network.</value>
+  </data>
+  <data name="COMM_PARAM_DESC_USE_SERIAL_CONNECTION" xml:space="preserve">
+    <value>Configure a connection to the controller via a serial cable.</value>
+  </data>
+  <data name="COMM_PARAM_NAME_BAUD_RATE" xml:space="preserve">
+    <value>Baud Rate</value>
+    <comment>Enable only if Use Serial Connection = TRUE.</comment>
+  </data>
+  <data name="COMM_PARAM_NAME_DEFAULT_CONNECTION_TYPE" xml:space="preserve">
+    <value>Default Connection Type</value>
+    <comment>Enable only if BOTH Use Network Connection and Use Serial Connection = TRUE. Otherwise, default to the connection type with TRUE value.</comment>
+  </data>
+  <data name="COMM_PARAM_NAME_DESIGNATE_TCP_PORT" xml:space="preserve">
+    <value>Designate TCP Port for Project File Transfer</value>
+  </data>
+  <data name="COMM_PARAM_NAME_IP_ADDRESS" xml:space="preserve">
+    <value>IP Address</value>
+    <comment>Automatically format in xxx.xxx.xxx.xxx</comment>
+  </data>
+  <data name="COMM_PARAM_NAME_NODE_NUMBER" xml:space="preserve">
+    <value>Node Number</value>
+  </data>
+  <data name="COMM_PARAM_NAME_SERIAL_PORT" xml:space="preserve">
+    <value>Serial Port</value>
+    <comment>Enable only if Use Serial Connection = TRUE.</comment>
+  </data>
+  <data name="COMM_PARAM_NAME_SYSTEM_NAME" xml:space="preserve">
+    <value>System Name</value>
+    <comment>Default value depends on value of Node Number</comment>
+  </data>
+  <data name="COMM_PARAM_NAME_TCP_PORT" xml:space="preserve">
+    <value>TCP Port</value>
+    <comment>Enable only if Use Specific Port... = TRUE.</comment>
+  </data>
+  <data name="COMM_PARAM_NAME_UDP_PORT" xml:space="preserve">
+    <value>UDP Port</value>
+    <comment>Enable only if Use Network Connection = TRUE.</comment>
+  </data>
+  <data name="COMM_PARAM_NAME_USE_NETWORK_CONNECTION" xml:space="preserve">
+    <value>Use Network Connection</value>
+  </data>
+  <data name="COMM_PARAM_NAME_USE_SERIAL_CONNECTION" xml:space="preserve">
+    <value>Use Serial Connection</value>
+  </data>
+  <data name="DEFAULT_COM_1" xml:space="preserve">
+    <value>COM1</value>
+  </data>
+  <data name="DEFAULT_COM_2" xml:space="preserve">
+    <value>COM2</value>
+  </data>
+  <data name="DEFAULT_COM_3" xml:space="preserve">
+    <value>COM3</value>
+  </data>
+  <data name="DEFAULT_COM_4" xml:space="preserve">
+    <value>COM4</value>
+  </data>
+  <data name="DEFAULT_CONNECTION_TYPE_NETWORK" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="DEFAULT_CONNECTION_TYPE_SERIAL" xml:space="preserve">
+    <value>Serial</value>
+  </data>
+  <data name="DEFAULT_SYSTEM_NAME" xml:space="preserve">
+    <value>TRINODE{0}</value>
+  </data>
+  <data name="ERROR_CANNOT_MODIFY_WHEN_DLC" xml:space="preserve">
+    <value>This value can’t be changed while the project is in the Download Changes state.</value>
+  </data>
+  <data name="ERROR_DETECTED_P2P_IMPORT" xml:space="preserve">
+    <value>Errors and/or alerts were detected during the Peer-to-Peer configuration import process. See %s for details.</value>
+  </data>
+  <data name="ERROR_ENABLE_ACCESS_CONTROL" xml:space="preserve">
+    <value>When the TCM access control list is enabled, at least one installed TCM per system must have a client with TriStation Read/Write access, in order to allow future changes to the application running on the controller.
+
+Either configure a client with Read/Write access to the controller using the TriStation protocol, or disable the TCM access control list.</value>
+  </data>
+  <data name="ERROR_ENABLE_ACCESS_CONTROL_MSG" xml:space="preserve">
+    <value>When the TCM access control list is enabled, at least one installed TCM per system must have a client with TriStation Read/Write access, in order to allow future changes to the application running on the controller. Either configure a client with Read/Write access to the controller using the TriStation protocol, or disable the TCM access control list.</value>
+  </data>
+  <data name="ERROR_INVALID_COMBOBOX_VALUE" xml:space="preserve">
+    <value>Invalid selection. You must select a value that is available in the drop-down list.</value>
+  </data>
+  <data name="ERROR_INVALID_GATEWAY" xml:space="preserve">
+    <value>Invalid Gateway IP Address. Enter a gateway IP address that is on the same subnet as the TCM.</value>
+  </data>
+  <data name="ERROR_INVALID_GATEWAY_IP" xml:space="preserve">
+    <value>Invalid Default Gateway IP Address. Verify the address is in the correct format or in a valid range.</value>
+  </data>
+  <data name="ERROR_INVALID_HIGHEST_PORT" xml:space="preserve">
+    <value>Invalid Highest TCP Port Number. Enter a port number that is greater than the Lowest TCP Port Number.</value>
+  </data>
+  <data name="ERROR_INVALID_IP_ADDRESS" xml:space="preserve">
+    <value>Invalid IP address. Verify the address is in the correct format.</value>
+  </data>
+  <data name="ERROR_INVALID_IP_MODBUS_TCP_CLIENT" xml:space="preserve">
+    <value>The selected port is configured for the Modbus TCP Client protocol. You must enter a valid server node IP address.</value>
+  </data>
+  <data name="ERROR_INVALID_IP_SUBNET_COMBO" xml:space="preserve">
+    <value>Invalid IP Address and Subnet Mask address combination. The IP address must be within the subnet mask range.</value>
+  </data>
+  <data name="ERROR_INVALID_LOWEST_PORT" xml:space="preserve">
+    <value>Invalid Lowest TCP Port Number. Enter a port number that is less than the Highest TCP Port Number.</value>
+  </data>
+  <data name="ERROR_INVALID_NET_IP" xml:space="preserve">
+    <value>Invalid IP address. Verify the address is in the correct format or in a valid range.</value>
+  </data>
+  <data name="ERROR_INVALID_SUBNET" xml:space="preserve">
+    <value>{0} is an invalid Subnet Mask address.</value>
+  </data>
+  <data name="ERROR_INVALID_SUBNETMASK" xml:space="preserve">
+    <value>Invalid Subnet Mask address.</value>
+  </data>
+  <data name="ERROR_INVALID_SUBNET_GATEWAY_COMBO" xml:space="preserve">
+    <value>Invalid Gateway IP Address and Subnet Mask address combination. The IP address must be within the subnet mask range.</value>
+  </data>
+  <data name="ERROR_INVALID_SUBNET_MASK" xml:space="preserve">
+    <value>Invalid Subnet Mask address.</value>
+  </data>
+  <data name="ERROR_IP_CONFLICT_WITH_ROUTING" xml:space="preserve">
+    <value>This network address configuration conflicts with one or more destination node IP addresses configured in the Routing section. Saving this configuration will reset the affected destination node(s) to the default values.
+
+Click Yes to continue, or click No to keep the previously saved configuration.</value>
+  </data>
+  <data name="ERROR_IP_GATEWAY_MISMATCH" xml:space="preserve">
+    <value>Invalid Default Gateway IP Address. The default gateway address must match the network IP address on the enabled port.</value>
+  </data>
+  <data name="ERROR_IP_INVALID" xml:space="preserve">
+    <value>The specified IP address is invalid.</value>
+  </data>
+  <data name="ERROR_IP_INVALID_ON_SUBNET" xml:space="preserve">
+    <value>Invalid SNTP Server IP Address. Enter an IP address that is on the same subnet as the TCM.</value>
+  </data>
+  <data name="ERROR_MODBUS_MAX_RANGE" xml:space="preserve">
+    <value>Invalid Modbus Range: Maximum. Enter a number that is greater than or equal to the Modbus Range: Minimum.</value>
+  </data>
+  <data name="ERROR_MODBUS_MIN_RANGE" xml:space="preserve">
+    <value>Invalid Modbus Range: Minimum. Enter a number that is less than or equal to the Modbus Range: Maximum.</value>
+  </data>
+  <data name="ERROR_MSG_INVALID_SYSTEM_NAME" xml:space="preserve">
+    <value>Invalid system name. The name must have at least {0}, but no more than {1}, characters.</value>
+    <comment>1 - 20</comment>
+  </data>
+  <data name="ERROR_MSG_INVALID_SYSTEM_NAME_NON_ENGLISH" xml:space="preserve">
+    <value>Invalid system name. You cannot use Unicode (non-English) characters in system names.</value>
+  </data>
+  <data name="ERROR_MSG_NODE_NUMBER" xml:space="preserve">
+    <value>Invalid node number. Must be in the range {0} - {1}.</value>
+  </data>
+  <data name="ERROR_MSG_NUMBER_OF_DAYS_BEFORE_ALARM_GEN" xml:space="preserve">
+    <value>Invalid selection. The number of days must be in the range {0} - {1}.</value>
+  </data>
+  <data name="ERROR_MSG_PROTOCOL_UPDATE_RATE" xml:space="preserve">
+    <value>Invalid multicast update rate. Must be in the range {0} - {1}.</value>
+  </data>
+  <data name="ERROR_MSG_TCP_PORT_NUMBER" xml:space="preserve">
+    <value>Invalid TCP port number. Must be in the range {0} - {1}.</value>
+  </data>
+  <data name="ERROR_MSG_UDP_PORT_NUMBER" xml:space="preserve">
+    <value>Invalid UDP port number. Must be in the range {0} - {1}.</value>
+  </data>
+  <data name="ERROR_P2P_IP_INVALID_ON_SUBNET" xml:space="preserve">
+    <value>Invalid IP Address for node {0}. Enter an IP address that is on the same subnet as the TCM.</value>
+  </data>
+  <data name="ERROR_PASTE_CELL_DISABLED" xml:space="preserve">
+    <value>Unable to paste. Property is not enabled.</value>
+  </data>
+  <data name="ERROR_PASTE_INVALID_ID_DETECTED" xml:space="preserve">
+    <value>Unable to paste communication module properties because one or more values in the ID column were modified.</value>
+  </data>
+  <data name="ERROR_PASTE_INVALID_PROPERTY_DETECTED" xml:space="preserve">
+    <value>Unable to paste row: {0} &gt; {1} &gt; {2} because the property could not be found. Verify the Group, Subgroup and Property values in the copied data were not modified.</value>
+  </data>
+  <data name="ERROR_PORT_FIRMWARE_MANAGER" xml:space="preserve">
+    <value>The port number you entered is reserved for Firmware Manager. See Help for more information about reserved UDP port numbers.</value>
+  </data>
+  <data name="ERROR_PORT_HART_TCP_UDP_IN_USE" xml:space="preserve">
+    <value>The port number you entered is either reserved or currently being used for the {0}. See Help for a complete list of reserved TCP and UDP port numbers.</value>
+  </data>
+  <data name="ERROR_PORT_PEER_TO_PEER" xml:space="preserve">
+    <value>The port number you entered is either reserved or currently being used by the Peer-to-Peer UDP protocol. See Help for a complete list of reserved UDP port numbers.</value>
+  </data>
+  <data name="ERROR_PORT_PRINTER_TCP_IN_USE" xml:space="preserve">
+    <value>The port number you entered is either reserved or currently being used for the {0}. See Help for a complete list of reserved TCP port numbers.</value>
+  </data>
+  <data name="ERROR_PORT_TSAA_PROTOCOL" xml:space="preserve">
+    <value>The port number you entered is either reserved or currently being used by the TSAA protocol. See Help for a complete list of reserved UDP port numbers.</value>
+  </data>
+  <data name="ERROR_PORT_TS_HART_DTM" xml:space="preserve">
+    <value>The port number you entered is either reserved or currently being used for HART DTM. See Help for a complete list of reserved UDP port numbers.</value>
+  </data>
+  <data name="ERROR_PORT_TS_HART_IP" xml:space="preserve">
+    <value>The port number you entered is either reserved or currently being used for HART-IP. See Help for a complete list of reserved UDP port numbers.</value>
+  </data>
+  <data name="ERROR_PORT_TS_MANAGEMENT_PROTOCOL" xml:space="preserve">
+    <value>The port number you entered is either reserved or currently being used by the Triconex Management protocol. See Help for a complete list of reserved UDP port numbers.</value>
+  </data>
+  <data name="ERROR_PORT_TS_PROTOCOL" xml:space="preserve">
+    <value>The port number you entered is either reserved or currently being used by the TriStation protocol. See Help for a complete list of reserved UDP port numbers.</value>
+  </data>
+  <data name="ERROR_PRINTER_LINE_WIDTH" xml:space="preserve">
+    <value>Invalid line width number. Must be in the range {0} - {1}.</value>
+  </data>
+  <data name="ERROR_PRINTER_NUMBER" xml:space="preserve">
+    <value>You cannot use the same printer number for the Left and Right slots. Enter a unique number for each slot.</value>
+  </data>
+  <data name="ERROR_PRINTER_NUMBER_INVALID_IP" xml:space="preserve">
+    <value>You must enter a valid Server IP Address before you can configure the Printer Number.</value>
+  </data>
+  <data name="ERROR_PRINTER_TCM_SUBNET" xml:space="preserve">
+    <value>Invalid Server IP Address. Enter a print server IP address that is on the same subnet as the TCM.</value>
+  </data>
+  <data name="ERROR_RESET_IPADDRESS_CONFIRMATION" xml:space="preserve">
+    <value>{0}
+Saving this configuration will reset the IP Address to the default values.
+
+Click Yes to continue, or No to return to the previously saved configuration</value>
+  </data>
+  <data name="ERROR_ROUTING_GATEWAY_INVALID" xml:space="preserve">
+    <value>The destination IP address and the destination Gateway address of the destination node {0} MUST be either both zero or both non-zero.</value>
+  </data>
+  <data name="ERROR_ROUTING_GATEWAY_NOTCONNECTED" xml:space="preserve">
+    <value>Invalid Gateway IP Address for destination node {0}. Enter an IP address that is on the same subnet as the TCM.</value>
+  </data>
+  <data name="ERROR_SERIALPORT_LOG_PORT_INVALID" xml:space="preserve">
+    <value>Enter a value between 1 and 32.</value>
+  </data>
+  <data name="ERROR_SERIALPORT_SERVER_ADDRESS_INVALID" xml:space="preserve">
+    <value>Enter a value between 0 and 255.</value>
+  </data>
+  <data name="ERROR_TCPIP_INVALID_ON_SUBNET" xml:space="preserve">
+    <value>Invalid Modbus TCP Client IP Address. Enter an IP address that is on the same subnet as the TCM.</value>
+  </data>
+  <data name="ERROR_TIMESYNC_IPADDRESS_BLANK" xml:space="preserve">
+    <value>You must enter a SNTP Server IP Address.</value>
+  </data>
+  <data name="ERROR_TIMESYNC_IP_RESERVED" xml:space="preserve">
+    <value>Invalid SNTP ServerIP Address. Enter an IP address that is not reserved for special purposes.</value>
+  </data>
+  <data name="ERROR_TS_PROTOCOL_CONFIGURED_ALREADY" xml:space="preserve">
+    <value>The TriStation protocol has already been configured for {0}. You cannot configure this protocol for both serial ports.</value>
+  </data>
+  <data name="ERROR_VALUE_NOT_IN_RANGE" xml:space="preserve">
+    <value>Enter a value between {0} and {1}.</value>
+  </data>
+  <data name="FIRMWARE_MANAGER" xml:space="preserve">
+    <value>Firmware Manager</value>
+  </data>
+  <data name="HART_DTM" xml:space="preserve">
+    <value>HART DTM</value>
+  </data>
+  <data name="HART_DTM_ENABLED" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="HART_DTM_ENABLED_DESCR" xml:space="preserve">
+    <value>Allow clients to access HART data via the Triconex Controller DTM. Enabling HART DTM on multiple TCMs will reduce communication speed. Supported only for modules installed in COM1: Left.</value>
+  </data>
+  <data name="HART_DTM_NET1_PORT" xml:space="preserve">
+    <value>NET 1 Port</value>
+  </data>
+  <data name="HART_DTM_NET1_PORT_DESCR" xml:space="preserve">
+    <value>Enter the TCP port number used for connections on NET 1, in the range 0 - 65535. Enter 0 to disable HART on this port. Cannot be the same as a HART-IP port number.</value>
+  </data>
+  <data name="HART_DTM_NET2_PORT" xml:space="preserve">
+    <value>NET 2 Port</value>
+  </data>
+  <data name="HART_DTM_NET2_PORT_DESCR" xml:space="preserve">
+    <value>Enter the TCP port number used for connections on NET 2, in the range 0 - 65535. Enter 0 to disable HART on this port. Cannot be the same as a HART-IP port number.</value>
+  </data>
+  <data name="HART_DTM_USE_SECURE_CONNECTION" xml:space="preserve">
+    <value>Use Secure Connection</value>
+  </data>
+  <data name="HART_DTM_USE_SECURE_CONNECTION_DESCR" xml:space="preserve">
+    <value>Enable secure HART communication through SSL. If enabled, you must also add certificates and private keys to your project.</value>
+  </data>
+  <data name="HART_IP" xml:space="preserve">
+    <value>HART-IP</value>
+  </data>
+  <data name="HART_IP_ENABLED" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="HART_IP_ENABLED_DESCR" xml:space="preserve">
+    <value>Allow HART device data to be transferred to an external HART-IP client via an IP-based network. Enabling HART-IP on multiple TCMs will reduce communication speed. Supported only for modules installed in COM1: Left.</value>
+  </data>
+  <data name="HART_IP_NET1_PORT" xml:space="preserve">
+    <value>NET 1 Port</value>
+  </data>
+  <data name="HART_IP_NET1_PORT_DESCR" xml:space="preserve">
+    <value>Enter the TCP port number for connections on NET 1, in the range 0 - 65535. Enter 0 to disable HART-IP on this port. Can be the same as the NET 2 port, but cannot be the same as a HART DTM port.</value>
+  </data>
+  <data name="HART_IP_NET2_PORT" xml:space="preserve">
+    <value>NET 2 Port</value>
+  </data>
+  <data name="HART_IP_NET2_PORT_DESCR" xml:space="preserve">
+    <value>Enter the TCP port number for connections on NET 2, in the range 0 - 65535. Enter 0 to disable HART-IP on this port. Can be the same as the NET 1 port, but cannot be the same as a HART DTM port.</value>
+  </data>
+  <data name="HART_TSAA_ENABLED" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="HART_TSAA_ENABLED_DESCR" xml:space="preserve">
+    <value>Allow TSAA clients to have read-only access to HART data using the TSAA protocol. Selected automatically when HART DTM or HART-IP are enabled. Supported only for modules installed in COM1: Left.</value>
+  </data>
+  <data name="IOP_BUS_PARAMETERS" xml:space="preserve">
+    <value>IOP Bus Parameters</value>
+  </data>
+  <data name="IOP_BUS_PARAM_DESC_IP_ADDRESS_A" xml:space="preserve">
+    <value>IP address of Ethernet IOP Bus Channel A.</value>
+  </data>
+  <data name="IOP_BUS_PARAM_DESC_IP_ADDRESS_B" xml:space="preserve">
+    <value>IP address of Ethernet IOP Bus Channel B.</value>
+  </data>
+  <data name="IOP_BUS_PARAM_DESC_IP_ADDRESS_C" xml:space="preserve">
+    <value>IP address of Ethernet IOP Bus Channel C.</value>
+  </data>
+  <data name="IOP_BUS_PARAM_DESC_USE_IOP_BUS" xml:space="preserve">
+    <value>Select to configure IOP Bus parameters if an IMFF is installed.</value>
+  </data>
+  <data name="IOP_BUS_PARAM_DESC_USE_SFP" xml:space="preserve">
+    <value>Allow an SFP transceiver to be used on the IOP Bus.</value>
+  </data>
+  <data name="IOP_BUS_PARAM_NAME_IP_ADDRESS_A" xml:space="preserve">
+    <value>IP Address A</value>
+    <comment>read-only</comment>
+  </data>
+  <data name="IOP_BUS_PARAM_NAME_IP_ADDRESS_B" xml:space="preserve">
+    <value>IP Address B</value>
+    <comment>read-only</comment>
+  </data>
+  <data name="IOP_BUS_PARAM_NAME_IP_ADDRESS_C" xml:space="preserve">
+    <value>IP Address C</value>
+    <comment>read-only</comment>
+  </data>
+  <data name="IOP_BUS_PARAM_NAME_USE_IOP_BUS" xml:space="preserve">
+    <value>Use IOP Bus</value>
+  </data>
+  <data name="IOP_BUS_PARAM_NAME_USE_SFP" xml:space="preserve">
+    <value>Use SFP</value>
+    <comment>Enable only if I/O Bus Interface Module Installed = TRUE</comment>
+  </data>
+  <data name="LDAP_ALLOW_POINTS_PERMISSION" xml:space="preserve">
+    <value>You must perform a Download All after changing the Allow Points to Be Disabled property setting. However, you do not have the permissions required to perform a Download All. Contact your administrator to request the required permissions.
+
+The Allow Points to Be Disabled property setting will remain unchanged.</value>
+  </data>
+  <data name="MEMORY_ALLOCATION" xml:space="preserve">
+    <value>Memory Allocation</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_APP_DATA_LIBRARIES" xml:space="preserve">
+    <value>Application Data: Libraries (bytes)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_APP_DATA_PROGRAMS" xml:space="preserve">
+    <value>Application Data: Programs (bytes)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_IN_RBOOL" xml:space="preserve">
+    <value>Input: Read Aliased BOOLs (IBR)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_IN_RDINT" xml:space="preserve">
+    <value>Input: Read Aliased DINTs (IIR)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_IN_RREAL" xml:space="preserve">
+    <value>Input: Read Aliased REALs (IRR)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_MBN" xml:space="preserve">
+    <value>Memory: Unaliased BOOLs (MBN)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_MBR" xml:space="preserve">
+    <value>Memory: Read Aliased BOOLs (MBR)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_MBW" xml:space="preserve">
+    <value>Memory: Read/Write Aliased BOOLs (MBW)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_MIN" xml:space="preserve">
+    <value>Memory: Unaliased DINTs (MIN)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_MIR" xml:space="preserve">
+    <value>Memory: Read Aliased DINTs (MIR)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_MIW" xml:space="preserve">
+    <value>Memory: Read/Write Aliased DINTs (MIW)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_MRN" xml:space="preserve">
+    <value>Memory: Unaliased REALs (MRN)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_MRR" xml:space="preserve">
+    <value>Memory: Read Aliased REALs (MRR)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_MRW" xml:space="preserve">
+    <value>Memory: Read/Write Aliased REALs (MRW)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_OUT_RWBOOL" xml:space="preserve">
+    <value>Output: Read/Write Aliased BOOLs (QBW)</value>
+  </data>
+  <data name="MEM_ALLOC_NAME_OUT_RW_DINT" xml:space="preserve">
+    <value>Output: Read/Write Aliased DINTs (QIW)</value>
+  </data>
+  <data name="MENU_CLEAR_ALL_FILTER" xml:space="preserve">
+    <value>Clear All Filters</value>
+  </data>
+  <data name="MODBUS_CLIENT_LOGICAL_PORT" xml:space="preserve">
+    <value>Client Logical Port</value>
+  </data>
+  <data name="MODBUS_CLIENT_LOGICAL_PORT_DESCR" xml:space="preserve">
+    <value>The logical port number used by Modbus client functions to access this port. Must be unique for each TCM in a system. Available only when Modbus TCP Client is selected.</value>
+  </data>
+  <data name="MODBUS_FLOATING_POINT_ORDERING" xml:space="preserve">
+    <value>Floating Point Ordering</value>
+  </data>
+  <data name="MODBUS_FLOATING_POINT_ORDERING_DESCR" xml:space="preserve">
+    <value>Select which section of a 32-bit floating point number is read first. High = first 16 bits. Low = last 16 bits.</value>
+  </data>
+  <data name="MODBUS_IP_ADDRESS" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="MODBUS_IP_ADDRESS_DESCR" xml:space="preserve">
+    <value>If using Modbus TCP Client, enter the server node's IP address. If using Modbus TCP Server, enter 0.0.0.0 to accept communication from any Modbus client; enter a specific client IP address to accept communication only from that Modbus client.</value>
+  </data>
+  <data name="MODBUS_MODBUS_RANGE_MAXIMUM" xml:space="preserve">
+    <value>Modbus Range: Maximum</value>
+  </data>
+  <data name="MODBUS_MODBUS_RANGE_MAXIMUM_DESCR" xml:space="preserve">
+    <value>The maximium REAL value that can be communicated over Modbus. Can be no more than 32767. Available only when Modbus TCP Server is selected.</value>
+  </data>
+  <data name="MODBUS_MODBUS_RANGE_MINIMUM" xml:space="preserve">
+    <value>Modbus Range: Minimum</value>
+  </data>
+  <data name="MODBUS_MODBUS_RANGE_MINIMUM_DESCR" xml:space="preserve">
+    <value>The minimum REAL value that can be communicated over Modbus. Can be no less than -32768. Available only when Modbus TCP Server is selected.</value>
+  </data>
+  <data name="MODBUS_NETWORK" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="MODBUS_NETWORK_DESCR" xml:space="preserve">
+    <value>Select the network this port is connected to.</value>
+  </data>
+  <data name="MODBUS_PROTOCOL" xml:space="preserve">
+    <value>Protocol</value>
+  </data>
+  <data name="MODBUS_PROTOCOL_DESCR" xml:space="preserve">
+    <value>Select the Modbus communication protocol for this port.</value>
+  </data>
+  <data name="MODBUS_SUBGROUP_PORT" xml:space="preserve">
+    <value>Port {0}</value>
+  </data>
+  <data name="MODBUS_TCP_PORT_NUMBER" xml:space="preserve">
+    <value>TCP Port Number</value>
+  </data>
+  <data name="MODBUS_TCP_PORT_NUMBER_DESCR" xml:space="preserve">
+    <value>Enter the TCP port number for this port.</value>
+  </data>
+  <data name="MODBUS_WRITE_ENABLED" xml:space="preserve">
+    <value>Write Enabled</value>
+  </data>
+  <data name="MODBUS_WRITE_ENABLED_DESCR" xml:space="preserve">
+    <value>Allow Modbus writes to this port. Available only when Modbus TCP Server is selected.</value>
+  </data>
+  <data name="MODULE_CHANGE_FILLDOWN" xml:space="preserve">
+    <value>Fill down operation cannot be performed because the number of changed modules will exceed 15. Changes to these modules cannot be made until you perform a Download Changes operation. However, additional changes to the 15 modules that have already had a change applied are still allowed. See Help for more information.</value>
+  </data>
+  <data name="MODULE_CHANGE_PASTE" xml:space="preserve">
+    <value>Paste operation cannot be performed because the number of changed modules will exceed 15. Changes to these modules cannot be made until you perform a Download Changes operation. However, additional changes to the 15 modules that have already had a change applied are still allowed. See Help for more information.</value>
+  </data>
+  <data name="NAVIGATION_ITEM_ACCESSCONTROL" xml:space="preserve">
+    <value>ACCESS CONTROL</value>
+  </data>
+  <data name="NAVIGATION_ITEM_ALL" xml:space="preserve">
+    <value>ALL</value>
+  </data>
+  <data name="NAVIGATION_ITEM_HART" xml:space="preserve">
+    <value>HART</value>
+  </data>
+  <data name="NAVIGATION_ITEM_MODBUSTCP" xml:space="preserve">
+    <value>MODBUS TCP</value>
+  </data>
+  <data name="NAVIGATION_ITEM_NETWORK" xml:space="preserve">
+    <value>NETWORK</value>
+  </data>
+  <data name="NAVIGATION_ITEM_PEERTOPEER" xml:space="preserve">
+    <value>PEER-TO-PEER</value>
+  </data>
+  <data name="NAVIGATION_ITEM_PRINTER" xml:space="preserve">
+    <value>PRINTER</value>
+  </data>
+  <data name="NAVIGATION_ITEM_PROTOCOLS" xml:space="preserve">
+    <value>PROTOCOLS</value>
+  </data>
+  <data name="NAVIGATION_ITEM_ROUTING" xml:space="preserve">
+    <value>ROUTING</value>
+  </data>
+  <data name="NAVIGATION_ITEM_SERIALPORTS" xml:space="preserve">
+    <value>SERIAL PORTS</value>
+  </data>
+  <data name="NAVIGATION_ITEM_TIMESYNC" xml:space="preserve">
+    <value>TIME SYNC</value>
+  </data>
+  <data name="NONE" xml:space="preserve">
+    <value>NONE</value>
+  </data>
+  <data name="NW_PARAM_NAME_DEFGATEWAY" xml:space="preserve">
+    <value>Gateway IP Address</value>
+  </data>
+  <data name="NW_PARAM_NAME_DEFGATEWAY_DESCR" xml:space="preserve">
+    <value>Enter the IP address of the default gateway. Must be part of the subnet.</value>
+  </data>
+  <data name="NW_PARAM_NAME_HIPORT" xml:space="preserve">
+    <value>Highest TCP Port</value>
+  </data>
+  <data name="NW_PARAM_NAME_HIPORT_DESCR" xml:space="preserve">
+    <value>(Optional) If the TCM is behind a firewall, the highest TCP port number that can be used for outgoing connections from the TCM. Must be in the range 1024 - 65535.</value>
+  </data>
+  <data name="NW_PARAM_NAME_INSTALLED" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="NW_PARAM_NAME_INSTALLED_DESCR" xml:space="preserve">
+    <value>Indicates whether the TCM is physically installed in the controller. Select True to enable configuration of the TCM. Select False to reset all properties to their default state and make the TCM unavailable for configuration.</value>
+  </data>
+  <data name="NW_PARAM_NAME_IPSUBNET" xml:space="preserve">
+    <value>Subnet Mask</value>
+  </data>
+  <data name="NW_PARAM_NAME_IPSUBNET_DESCR" xml:space="preserve">
+    <value>Enter the IP address for the subnet.</value>
+  </data>
+  <data name="NW_PARAM_NAME_IP_ADDRESS" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="NW_PARAM_NAME_IP_ADDRESS_DESCR" xml:space="preserve">
+    <value>Enter the IP address for the network port on the TCM. Network port addresses on the same TCM do not need to be unique.</value>
+  </data>
+  <data name="NW_PARAM_NAME_LOPORT" xml:space="preserve">
+    <value>Lowest TCP Port</value>
+  </data>
+  <data name="NW_PARAM_NAME_LOPORT_DESCR" xml:space="preserve">
+    <value>(Optional) If the TCM is behind a firewall, the lowest TCP port number that can be used for outgoing connections from the TCM. Must be in the range 1024 - 65535.</value>
+  </data>
+  <data name="NW_PARAM_NAME_MODEL" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="NW_PARAM_NAME_TX_MODE" xml:space="preserve">
+    <value>Transceiver Mode</value>
+  </data>
+  <data name="NW_PARAM_NAME_TX_MODE_DESCR" xml:space="preserve">
+    <value>Select the physical connection mode.</value>
+  </data>
+  <data name="OPERATING_PARAMETERS" xml:space="preserve">
+    <value>Operating Parameters</value>
+  </data>
+  <data name="OP_PARAM_DESC_ALLOW_DISABLE_POINTS" xml:space="preserve">
+    <value>Allow points to be disabled from TriStation 1131. Requires a Download All.</value>
+  </data>
+  <data name="OP_PARAM_DESC_ALLOW_EXPIRED_CERT" xml:space="preserve">
+    <value>Allow secure connections even if server/client certificate is expired.</value>
+  </data>
+  <data name="OP_PARAM_DESC_GENERATE_ALARM_WHEN_EXP" xml:space="preserve">
+    <value>Turn MP Fault LEDs on when server/client certificate expires.</value>
+  </data>
+  <data name="OP_PARAM_DESC_NUM_OF_DAYS_BEFORE_ALARM_GEN" xml:space="preserve">
+    <value>Number of days prior to certificate expiration alarm should be generated.</value>
+  </data>
+  <data name="OP_PARAM_DESC_PREVENT_KEYSWITCH_STOP_FROM_HALTING" xml:space="preserve">
+    <value>If keyswitch is turned to Stop, application on controller continues running.</value>
+  </data>
+  <data name="OP_PARAM_DESC_PREVENT_REMOTE_WRITES" xml:space="preserve">
+    <value>Prevent external devices from writing to output tagnames in the application.</value>
+  </data>
+  <data name="OP_PARAM_DESC_USE_NODE_TIME_SYNC" xml:space="preserve">
+    <value>Allow controller to act as primary node for time synchronization on the Peer-to-Peer network.</value>
+  </data>
+  <data name="OP_PARAM_DESC_USE_SECURE_COMM" xml:space="preserve">
+    <value>Enable secure communication between TriStation 1131 and the controller.</value>
+  </data>
+  <data name="OP_PARAM_NAME_ALLOW_DISABLE_POINTS" xml:space="preserve">
+    <value>Allow Points to Be Disabled</value>
+  </data>
+  <data name="OP_PARAM_NAME_ALLOW_EXPIRED_CERT" xml:space="preserve">
+    <value>Allow Expired Certificates</value>
+    <comment>Enable only if Use Secure Communication = TRUE</comment>
+  </data>
+  <data name="OP_PARAM_NAME_GENERATE_ALARM_WHEN_EXP" xml:space="preserve">
+    <value>Generate Alarm when Certificate Expires</value>
+    <comment>Enable only if Use Secure Communication = TRUE</comment>
+  </data>
+  <data name="OP_PARAM_NAME_NUM_OF_DAYS_BEFORE_ALARM_GEN" xml:space="preserve">
+    <value>Number of Days Before Alarm Generation</value>
+    <comment>Enable only if Generate Alarm when Certificate Expires = TRUE</comment>
+  </data>
+  <data name="OP_PARAM_NAME_PREVENT_KEYSWITCH_STOP_FROM_HALTING" xml:space="preserve">
+    <value>Prevent Keyswitch Stop from Halting Application</value>
+  </data>
+  <data name="OP_PARAM_NAME_PREVENT_REMOTE_WRITES" xml:space="preserve">
+    <value>Prevent Remote Writes to Output Tagnames</value>
+  </data>
+  <data name="OP_PARAM_NAME_USE_NODE_TIME_SYNC" xml:space="preserve">
+    <value>Use Node Time Synchronization</value>
+  </data>
+  <data name="OP_PARAM_NAME_USE_SECURE_COMM" xml:space="preserve">
+    <value>Use Secure Communication</value>
+  </data>
+  <data name="P2P_UDP_PROTOCOL" xml:space="preserve">
+    <value>Peer-to-Peer UDP protocol</value>
+  </data>
+  <data name="PEER_TO_PEER" xml:space="preserve">
+    <value>Peer-to-Peer</value>
+  </data>
+  <data name="PEER_TO_PEER_DESTINATION_UDP_PORT" xml:space="preserve">
+    <value>Destination UDP Port</value>
+  </data>
+  <data name="PEER_TO_PEER_DESTINATION_UDP_PORT_DESCR" xml:space="preserve">
+    <value>Enter the UDP base port number for this node. Do not change this setting unless the TCM is behind a firewall or you want to use a custom port number.</value>
+  </data>
+  <data name="PEER_TO_PEER_IP_ADDRESS" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="PEER_TO_PEER_IP_ADDRESS_DESCR" xml:space="preserve">
+    <value>Enter the IP address for this node.</value>
+  </data>
+  <data name="PEER_TO_PEER_NETWORK" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="PEER_TO_PEER_NETWORK_DESCR" xml:space="preserve">
+    <value>Select the network port the TCM uses to communicate with this Peer-to-Peer node (controller).</value>
+  </data>
+  <data name="PEER_TO_PEER_UDP_BASE_PORT_NUM_NET1" xml:space="preserve">
+    <value>UDP Base Port Number: NET 1</value>
+  </data>
+  <data name="PEER_TO_PEER_UDP_BASE_PORT_NUM_NET1_DESCR" xml:space="preserve">
+    <value>Enter the UDP base port number for the NET 1 port. Enter 0 to disable Peer-to-Peer on this network.</value>
+  </data>
+  <data name="PEER_TO_PEER_UDP_BASE_PORT_NUM_NET2" xml:space="preserve">
+    <value>UDP Base Port Number: NET 2</value>
+  </data>
+  <data name="PEER_TO_PEER_UDP_BASE_PORT_NUM_NET2_DESCR" xml:space="preserve">
+    <value>Enable Peer-to-Peer on this network by entering the UDP base port number for the NET 2 port. Peer-to-Peer is disabled on NET 2 by default.</value>
+  </data>
+  <data name="PRINTER" xml:space="preserve">
+    <value>Printer</value>
+  </data>
+  <data name="PRINTER_PRINTER_NUMBER" xml:space="preserve">
+    <value>Printer Number</value>
+  </data>
+  <data name="PRINTER_PRINTER_NUMBER_DESCR" xml:space="preserve">
+    <value>Select the printer number. Do not assign the same number to both TCM slots. The default 0 means a printer is not configured.</value>
+  </data>
+  <data name="PRINTER_PRINT_LINEWIDTH" xml:space="preserve">
+    <value>Line Width</value>
+  </data>
+  <data name="PRINTER_PRINT_LINEWIDTH_DESCR" xml:space="preserve">
+    <value>Enter the number of characters to print on each line. Must be between 80 -132.</value>
+  </data>
+  <data name="PRINTER_PRINT_SERVER_IP" xml:space="preserve">
+    <value>Server IP Address</value>
+  </data>
+  <data name="PRINTER_PRINT_SERVER_IP_DESCR" xml:space="preserve">
+    <value>Enter the IP address of the print server.</value>
+  </data>
+  <data name="PRINTER_PRINT_SERVER_NW" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="PRINTER_PRINT_SERVER_NW_DESCR" xml:space="preserve">
+    <value>Select the network the print server is connected to.</value>
+  </data>
+  <data name="PRINTER_PRINT_SERVER_PORT" xml:space="preserve">
+    <value>TCP Port</value>
+  </data>
+  <data name="PRINTER_PRINT_SERVER_PORT_DESCR" xml:space="preserve">
+    <value>Enter the TCP port for the print server. The default is for an HP printer. If port restrictions are enabled, must be within the restricted port range.</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_AUTODSC" xml:space="preserve">
+    <value>Auto Discovery</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_AUTODSC_DESCR" xml:space="preserve">
+    <value>Allow the Enhanced Diagnostic Monitor to automatically detect this controller on the network when it's connected via configured port</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_MGMNTPORT" xml:space="preserve">
+    <value>Management Port</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_MGMNTPORT_DESCR" xml:space="preserve">
+    <value>Enter the UDP port used for the Enhanced Diagnostic Monitor connection to communication status information. Cannot be the same as the TSAA or TriStation port numbers.</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_MULT_IP" xml:space="preserve">
+    <value>Multicast IP Address</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_MULT_IP_DESCR" xml:space="preserve">
+    <value>Enter the IP address for TSAA multicast messaging. Bin and/or SOE data available messages will be sent to this address. The default 0.0.0.0 address specifies that multicasting is disabled.</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_MULT_UPDATERATE" xml:space="preserve">
+    <value>Multicast Update Rate (ms)</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_MULT_UPDATERATE_DESCR" xml:space="preserve">
+    <value>Enter the update rate, in milliseconds, for TSAA IP multicasting. Must be in the range 250 - 2000. Multicast messages are sent at the specified rate.</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_PORT" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_PORT_DESCR" xml:space="preserve">
+    <value>Enter the UDP port used for TriStation connections. Cannot be the same as the TSAA or Management port numbers.</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_TSAAPORT" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_TSAAVERION" xml:space="preserve">
+    <value>TSAA Version</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_TSAAVER_DESCR" xml:space="preserve">
+    <value>Select the TSAA protocol version used for multicasting. The selected version must be supported by ALL TSAA clients in the multicast group.</value>
+  </data>
+  <data name="PROTOCOL_PARAMS_TSAA_PORT_DESCR" xml:space="preserve">
+    <value>Enter the UDP port used for TSAA connections. Cannot be the same as the TriStation or Management port numbers. Enter 0 to disable TSAA communication on this port.</value>
+  </data>
+  <data name="ROUTING_GATEWAY" xml:space="preserve">
+    <value>Destination Gateway IP Address</value>
+  </data>
+  <data name="ROUTING_GATEWAY_DESCR" xml:space="preserve">
+    <value>Enter the IP address of the gateway the controller is connected to. Must be on the NET 1 or NET 2 network.</value>
+  </data>
+  <data name="ROUTING_IP_ADDRESS" xml:space="preserve">
+    <value>Destination IP Address</value>
+  </data>
+  <data name="ROUTING_IP_ADDRESS_DESCR" xml:space="preserve">
+    <value>Enter the IP address used if the controller is not on the same subnet as other devices.</value>
+  </data>
+  <data name="ROUTING_SUBGROUP_DEST" xml:space="preserve">
+    <value>{0} | Destination {1}</value>
+  </data>
+  <data name="ROUTING_SUBNET_MASK" xml:space="preserve">
+    <value>Destination Subnet Mask</value>
+  </data>
+  <data name="ROUTING_SUBNET_MASK_DESCR" xml:space="preserve">
+    <value>Enter the subnet mask address. Must be the same as the subnet mask defined for NET 1 or NET 2 in the Network properties (above).</value>
+  </data>
+  <data name="SNTP" xml:space="preserve">
+    <value>SNTP</value>
+  </data>
+  <data name="SNTP_REDUNDANT" xml:space="preserve">
+    <value>SNTP Redundant</value>
+  </data>
+  <data name="SP_PARAM_NAME_BAUDRATE" xml:space="preserve">
+    <value>Baud Rate</value>
+  </data>
+  <data name="SP_PARAM_NAME_BAUDRATE_DESCR" xml:space="preserve">
+    <value>Select the data transmission speed for this port.</value>
+  </data>
+  <data name="SP_PARAM_NAME_CLIENT_PORT" xml:space="preserve">
+    <value>Client Logical Port</value>
+  </data>
+  <data name="SP_PARAM_NAME_CLIENT_PORT_DESCR" xml:space="preserve">
+    <value>The logical port number used by Modbus client functions to access this port. Must be unique for each TCM in a system. Available only when Modbus Client is selected.</value>
+  </data>
+  <data name="SP_PARAM_NAME_DATABITS" xml:space="preserve">
+    <value>Data Bits</value>
+  </data>
+  <data name="SP_PARAM_NAME_DATABITS_DESCR" xml:space="preserve">
+    <value>Select how many bits are in the data format. Available only  when Modbus Server ASCII is selected.</value>
+  </data>
+  <data name="SP_PARAM_NAME_FP_ORDER" xml:space="preserve">
+    <value>Floating Point Ordering</value>
+  </data>
+  <data name="SP_PARAM_NAME_FP_ORDER_DESCR" xml:space="preserve">
+    <value>Select which section of a 32-bit floating point number is read first. High = first 16 bits. Low = last 16 bits.</value>
+  </data>
+  <data name="SP_PARAM_NAME_HANDSHAKE" xml:space="preserve">
+    <value>Handshake</value>
+  </data>
+  <data name="SP_PARAM_NAME_HANDSHAKE_DESCR" xml:space="preserve">
+    <value>Select if hardware handshaking should be used to establish valid connections between devices. Required when the Wire Type is 2-Wire, or the Transceiver Mode is RS-485.</value>
+  </data>
+  <data name="SP_PARAM_NAME_MB_MAX" xml:space="preserve">
+    <value>Modbus Range: Maximum</value>
+  </data>
+  <data name="SP_PARAM_NAME_MB_MAX_DESCR" xml:space="preserve">
+    <value>The maximium REAL value that can be communicated over Modbus. Can be no more than 32767.</value>
+  </data>
+  <data name="SP_PARAM_NAME_MB_MIN" xml:space="preserve">
+    <value>Modbus Range: Minimum</value>
+  </data>
+  <data name="SP_PARAM_NAME_MB_MIN_DESCR" xml:space="preserve">
+    <value>The minimum REAL value that can be communicated over Modbus. Can be no less than -32768.</value>
+  </data>
+  <data name="SP_PARAM_NAME_MB_SRVR_ADDRESS" xml:space="preserve">
+    <value>Modbus Server Address</value>
+  </data>
+  <data name="SP_PARAM_NAME_MB_SRVR_ADDRESS_DESCR" xml:space="preserve">
+    <value>Enter the Modbus Server device number (0 - 255). Available only when Modbus Server RTU or Modbus Server ASCII is selected.</value>
+  </data>
+  <data name="SP_PARAM_NAME_PARITY" xml:space="preserve">
+    <value>Parity</value>
+  </data>
+  <data name="SP_PARAM_NAME_PARITY_DESCR" xml:space="preserve">
+    <value>Select the type of parity checking to use for detection of data communication errors.</value>
+  </data>
+  <data name="SP_PARAM_NAME_PROTOCOL" xml:space="preserve">
+    <value>Protocol</value>
+  </data>
+  <data name="SP_PARAM_NAME_PROTOCOL_DESCR" xml:space="preserve">
+    <value>Select the communication protocol for this port.</value>
+  </data>
+  <data name="SP_PARAM_NAME_STOPBITS" xml:space="preserve">
+    <value>Stop Bits</value>
+  </data>
+  <data name="SP_PARAM_NAME_STOPBITS_DESCR" xml:space="preserve">
+    <value>Select how many bits to transmit after each character to indicate that transmission of a byte of data is complete.</value>
+  </data>
+  <data name="SP_PARAM_NAME_TERMINAL_TYPE" xml:space="preserve">
+    <value>Termination Type</value>
+  </data>
+  <data name="SP_PARAM_NAME_TERMINAL_TYPE_DESCR" xml:space="preserve">
+    <value>Select the type of termination used with Modbus cable connections. Available only if the Transceiver Mode is RS-485.</value>
+  </data>
+  <data name="SP_PARAM_NAME_TX_MODE" xml:space="preserve">
+    <value>Transceiver Mode</value>
+  </data>
+  <data name="SP_PARAM_NAME_TX_MODE_DESCR" xml:space="preserve">
+    <value>Select the physical connection mode. Use RS-232 for point-to-point communication up to 50 ft/15.24 m. Use RS-485 for multi-point communication up to 4,000 ft/1219.2 m.</value>
+  </data>
+  <data name="SP_PARAM_NAME_WIRE_TYPE" xml:space="preserve">
+    <value>Wire Type</value>
+  </data>
+  <data name="SP_PARAM_NAME_WIRE_TYPE_DESCR" xml:space="preserve">
+    <value>Select the type of wire used for serial communication. 2-Wire: A single pair used for Modbus reads and writes. 4-Wire: One pair used for Modbus reads, and a second pair for Modbus writes.</value>
+  </data>
+  <data name="SP_PARAM_NAME_WRITE_ENABLED" xml:space="preserve">
+    <value>Write Enabled</value>
+  </data>
+  <data name="SP_PARAM_NAME_WRITE_ENABLED_DESCR" xml:space="preserve">
+    <value>Allow Modbus writes to this port. Available only when Modbus Server RTU or Modbus Server ASCII is selected.</value>
+  </data>
+  <data name="SYSTEM_CONFIG_DESCRIPTION" xml:space="preserve">
+    <value>System Configuration parameters affect the overall operation of the Tricon CX system. You need to define how TriStation 1131 connects to the controller and which features are enabled on the controller. You can also view information about how controller memory is allocated for application data, and input, output, and memory tagnames.</value>
+  </data>
+  <data name="SYSTEM_CONFIG_HEADER_DESCRIPTION" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SYSTEM_CONFIG_HEADER_FREE" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="SYSTEM_CONFIG_HEADER_GROUP" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="SYSTEM_CONFIG_HEADER_MAX" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="SYSTEM_CONFIG_HEADER_PROPERTY" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="SYSTEM_CONFIG_HEADER_ROW_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="SYSTEM_CONFIG_HEADER_SUBGROUP" xml:space="preserve">
+    <value>Subgroup</value>
+  </data>
+  <data name="SYSTEM_CONFIG_HEADER_TYPE" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="SYSTEM_CONFIG_HEADER_USED" xml:space="preserve">
+    <value>Used</value>
+  </data>
+  <data name="SYSTEM_CONFIG_HEADER_VALUE" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="SYSTEM_CONFIG_INVALID_PASTE_PERMISSIONS" xml:space="preserve">
+    <value>Unable to paste system configuration properties because you do not have the appropriate permissions. Contact your administrator to request permission to modify these properties.</value>
+  </data>
+  <data name="SYSTEM_CONFIG_INVALID_PASTE_PERMISSIONS_2" xml:space="preserve">
+    <value>Properties requiring permissions: {0}.</value>
+  </data>
+  <data name="SYSTEM_CONFIG_MEMORY_ALLOCATION" xml:space="preserve">
+    <value>Memory Allocation</value>
+  </data>
+  <data name="SYSTEM_CONFIG_SUBHEADER" xml:space="preserve">
+    <value>System Configuration Parameters</value>
+  </data>
+  <data name="SYSTEM_CONFIG_TITLE" xml:space="preserve">
+    <value>Tricon CX {0} - {1} Main Processor</value>
+    <comment>Tricon CX &lt;version&gt; - &lt;MP model number&gt; Main Processor</comment>
+  </data>
+  <data name="TCM_ACCESS_CONTROL_NODE_DESCR" xml:space="preserve">
+    <value>&gt; COM1 L: {0} COM1 R: {1} COM2 L: {2} COM2 R: {3}</value>
+  </data>
+  <data name="TCM_ACCESS_CONTROL_PARAMS" xml:space="preserve">
+    <value>Access Control</value>
+  </data>
+  <data name="TCM_COM1" xml:space="preserve">
+    <value>COM1:</value>
+  </data>
+  <data name="TCM_COM2" xml:space="preserve">
+    <value>COM2:</value>
+  </data>
+  <data name="TCM_CONFIG_HEADER_1L" xml:space="preserve">
+    <value>COM1: Left</value>
+  </data>
+  <data name="TCM_CONFIG_HEADER_1R" xml:space="preserve">
+    <value>COM1: Right</value>
+  </data>
+  <data name="TCM_CONFIG_HEADER_2L" xml:space="preserve">
+    <value>COM2: Left</value>
+  </data>
+  <data name="TCM_CONFIG_HEADER_2R" xml:space="preserve">
+    <value>COM2: Right</value>
+  </data>
+  <data name="TCM_CONFIG_PANE_DESCR" xml:space="preserve">
+    <value>Tricon Communication Module (TCM) settings define how the Tricon CX system communicates with external devices. You need to configure network and serial connections, define the protocols used for communication, configure time synchronization with other systems, set up a printer connection, and specify which clients can access TCM resources. When you make changes to these settings, you must download the updated configuration to the controller.</value>
+  </data>
+  <data name="TCM_CONFIG_SUBHEADER" xml:space="preserve">
+    <value>Communication Module Configuration</value>
+  </data>
+  <data name="TCM_CONFIG_TIMESYNC_TITLE" xml:space="preserve">
+    <value>Time Sync</value>
+  </data>
+  <data name="TCM_HART_DTM" xml:space="preserve">
+    <value>HART DTM</value>
+  </data>
+  <data name="TCM_HART_IP" xml:space="preserve">
+    <value>HART-IP</value>
+  </data>
+  <data name="TCM_HART_PARAMS" xml:space="preserve">
+    <value>HART</value>
+  </data>
+  <data name="TCM_HART_TSAA" xml:space="preserve">
+    <value>HART TSAA</value>
+  </data>
+  <data name="TCM_INVALID_PASTE" xml:space="preserve">
+    <value>Unable to paste communication module properties because one or more column headings are missing or have been modified. Verify the copied data includes these headings: ID, Group, Subgroup, Property, COM1: Left, COM1: Right, COM2: Left, COM2: Right.</value>
+  </data>
+  <data name="TCM_INVALID_PASTE_PERMISSIONS" xml:space="preserve">
+    <value>Unable to paste module configuration properties because you do not have the appropriate permissions. Contact your administrator to request permission to modify these properties.</value>
+  </data>
+  <data name="TCM_INVALID_VALUE_MSG" xml:space="preserve">
+    <value>Communication Module Configuration &gt; {0} &gt; {1} &gt; {2}: {3}</value>
+  </data>
+  <data name="TCM_INVALID_VALUE_SUBGROUP_MSG" xml:space="preserve">
+    <value>Communication Module Configuration &gt; {0} &gt; {1} &gt; {2} &gt; {3}: {4}</value>
+  </data>
+  <data name="TCM_LEFT" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="TCM_MODBUS_TCP_PARAMS" xml:space="preserve">
+    <value>Modbus TCP</value>
+  </data>
+  <data name="TCM_NETWORK_PARAMS" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="TCM_PARAM_LEFT_SLOT" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="TCM_PARAM_NET1" xml:space="preserve">
+    <value>NET 1</value>
+  </data>
+  <data name="TCM_PARAM_NET2" xml:space="preserve">
+    <value>NET 2</value>
+  </data>
+  <data name="TCM_PARAM_RIGHT_SLOT" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="TCM_PARAM_TSAA_NET1" xml:space="preserve">
+    <value>TSAA: NET 1</value>
+  </data>
+  <data name="TCM_PARAM_TSAA_NET2" xml:space="preserve">
+    <value>TSAA: NET 2</value>
+  </data>
+  <data name="TCM_PARAM_TS_NET1" xml:space="preserve">
+    <value>TriStation: NET 1</value>
+  </data>
+  <data name="TCM_PARAM_TS_NET2" xml:space="preserve">
+    <value>TriStation: NET 2</value>
+  </data>
+  <data name="TCM_PEER_TO_PEER_NODE_DESCR" xml:space="preserve">
+    <value>&gt; COM1 L: {0}| Port {1} | {2} COM1 R: {3}| Port {4} | {5} COM2 L: {6}| Port {7} | {8} COM2 R: {9}| Port {10} | {11}</value>
+    <comment>| 0.0.0.0 | Port 1503 | NET 1</comment>
+  </data>
+  <data name="TCM_PEER_TO_PEER_NODE_DESCR_SPLIT" xml:space="preserve">
+    <value>&gt; COM1 L: {0} COM1 R: {1} COM2 L: {2} COM2 R: {3}</value>
+  </data>
+  <data name="TCM_PEER_TO_PEER_NODE_NUMBER" xml:space="preserve">
+    <value>Node {0}</value>
+    <comment>Node 005</comment>
+  </data>
+  <data name="TCM_PEER_TO_PEER_PARAMS" xml:space="preserve">
+    <value>Peer-to-Peer</value>
+  </data>
+  <data name="TCM_PRINTER_PARAMS" xml:space="preserve">
+    <value>Printer</value>
+  </data>
+  <data name="TCM_PROTOCOL_PARAMS" xml:space="preserve">
+    <value>Protocols</value>
+  </data>
+  <data name="TCM_RIGHT" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="TCM_ROUTING_PARAMS" xml:space="preserve">
+    <value>Routing</value>
+  </data>
+  <data name="TCM_SERIALPORT_PARAMS" xml:space="preserve">
+    <value>Serial Ports</value>
+  </data>
+  <data name="TCM_SLOT_COM_1" xml:space="preserve">
+    <value>COM1: {0}</value>
+  </data>
+  <data name="TCM_SLOT_COM_2" xml:space="preserve">
+    <value>COM2: {0}</value>
+  </data>
+  <data name="TCM_SLOT_EMPTY" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="TCM_SUBGROUP_SERIALPORT_1" xml:space="preserve">
+    <value>Serial Port 1</value>
+  </data>
+  <data name="TCM_SUBGROUP_SERIALPORT_2" xml:space="preserve">
+    <value>Serial Port 2</value>
+  </data>
+  <data name="TCM_TIMESYNC_PARAMS" xml:space="preserve">
+    <value>Time Sync</value>
+  </data>
+  <data name="TIMESYNC_CONFIG" xml:space="preserve">
+    <value>Time Synchronization Configuration</value>
+  </data>
+  <data name="TIMESYNC_NETWORK_DESCR" xml:space="preserve">
+    <value>Select the network the SNTP server is connected to.</value>
+  </data>
+  <data name="TIMESYNC_PARAMS_PROTOCOL" xml:space="preserve">
+    <value>Protocol</value>
+  </data>
+  <data name="TIMESYNC_PARAMS_PROTOCOL_DESCR" xml:space="preserve">
+    <value>Select the protocol to use for time synchronization. Select Peer-to-Peer if this controller is the primary node that other Triconex controllers will synchronize their time with.</value>
+  </data>
+  <data name="TIMESYNC_PARAMS_SNTP_IP" xml:space="preserve">
+    <value>SNTP Server IP Address</value>
+  </data>
+  <data name="TIMESYNC_PARAMS_SNTP_IP_DESCR" xml:space="preserve">
+    <value>Enter the IP address of the SNTP server to synchronize time with.</value>
+  </data>
+  <data name="TIMESYNC_PARAMS_USE" xml:space="preserve">
+    <value>Use Time Synchronization</value>
+  </data>
+  <data name="TIMESYNC_PARAMS_USE_DESCR" xml:space="preserve">
+    <value>Synchronize time to an SNTP server or with other Triconex systems on the Peer-to-Peer network.</value>
+  </data>
+  <data name="TRICONEX_MANAGEMENT_PROTOCOL" xml:space="preserve">
+    <value>Triconex Management protocol</value>
+  </data>
+  <data name="TRISTATION_1131_COMM_PARAMS" xml:space="preserve">
+    <value>TriStation 1131 Communication Parameters</value>
+  </data>
+  <data name="TRISTATION_ALLOW_POINTS_SAFETY_MESSAGE" xml:space="preserve">
+    <value>NOTICE
+
+POTENTIAL UNINTENDED OPERATION
+
+You must perform a Download All after changing the {0} property setting. Before making a change to this property, analyze the impact of the controller being halted during the Download All process. 
+
+Failure to follow these instructions can result in an unplanned safety system shutdown.
+
+Click OK for more information.</value>
+  </data>
+  <data name="TRISTATION_MSG_ALERT" xml:space="preserve">
+    <value>TriStation 1131: ALERT</value>
+  </data>
+  <data name="TRISTATION_MSG_ERROR_DETECTED" xml:space="preserve">
+    <value>TriStation 1131: ERROR DETECTED</value>
+  </data>
+  <data name="TRISTATION_MSG_NOTE" xml:space="preserve">
+    <value>TriStation 1131: NOTE</value>
+  </data>
+  <data name="TRISTATION_MSG_QUERY" xml:space="preserve">
+    <value>TriStation 1131: QUERY</value>
+    <comment>Taken from 5.4</comment>
+  </data>
+  <data name="TRISTATION_PROTOCOL" xml:space="preserve">
+    <value>TriStation protocol</value>
+  </data>
+  <data name="TRISTATION_REBUILD_ALL_REQUIRED" xml:space="preserve">
+    <value>You must perform a Download All after changing the {0} property setting. Are you sure you want to make this change?
+
+Click Yes to change this property and set the project state to Download All (if it is not already). 
+Click No to leave this property unchanged.</value>
+  </data>
+  <data name="TSAA_PROTOCOL" xml:space="preserve">
+    <value>TSAA protocol</value>
+  </data>
+  <data name="TS_INVALID_VALUE_MSG" xml:space="preserve">
+    <value>System Configuration &gt; {0}: {1}</value>
+  </data>
+</root>

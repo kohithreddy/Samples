@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <AssemblyName Condition="'$(TargetName)' != ''">$(TargetName)</AssemblyName>
+  </PropertyGroup>
+</Project>

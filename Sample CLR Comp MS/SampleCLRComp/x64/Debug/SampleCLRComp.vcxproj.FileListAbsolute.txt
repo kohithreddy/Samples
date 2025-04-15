@@ -1,0 +1,6 @@
+C:\Users\ankasani\source\repos\SampleCLRComp\x64\Debug\Ijwhost.dll
+C:\Users\ankasani\source\repos\SampleCLRComp\x64\Debug\SampleCLRComp.deps.json
+C:\Users\ankasani\source\repos\SampleCLRComp\x64\Debug\SampleCLRComp.runtimeconfig.json
+C:\Users\ankasani\source\repos\SampleCLRComp\SampleCLRComp\x64\Debug\SampleCLRComp.vcxproj.AssemblyReference.cache
+C:\Users\ankasani\source\repos\SampleCLRComp\SampleCLRComp\x64\Debug\SampleCL.6EF555E6.Up2Date
+C:\Users\ankasani\source\repos\SampleCLRComp\SampleCLRComp\x64\Debug\SampleCLRComp.genruntimeconfig.cache

@@ -1,0 +1,50 @@
+# NOTE: Requires **VS2019 16.3** or later
+
+# ManagedRecommendedRulesForSS
+# Description: ManagedRecommendedRulesForSS.ruleset
+
+# Code files
+[*.{cs,vb}]
+
+
+dotnet_diagnostic.CA1020.severity = none
+
+dotnet_diagnostic.CA1308.severity = none
+
+dotnet_diagnostic.CA1701.severity = none
+
+dotnet_diagnostic.CA1702.severity = none
+
+dotnet_diagnostic.CA1704.severity = none
+
+dotnet_diagnostic.CA1707.severity = none
+
+dotnet_diagnostic.CA1708.severity = none
+
+dotnet_diagnostic.CA1709.severity = none
+
+dotnet_diagnostic.CA1710.severity = none
+
+dotnet_diagnostic.CA1711.severity = none
+
+dotnet_diagnostic.CA1715.severity = none
+
+dotnet_diagnostic.CA1716.severity = none
+
+dotnet_diagnostic.CA1717.severity = none
+
+dotnet_diagnostic.CA1719.severity = none
+
+dotnet_diagnostic.CA1720.severity = none
+
+dotnet_diagnostic.CA1721.severity = none
+
+dotnet_diagnostic.CA1724.severity = none
+
+dotnet_diagnostic.CA1726.severity = none
+
+dotnet_diagnostic.CA1824.severity = none
+
+dotnet_diagnostic.CA2204.severity = none
+
+dotnet_diagnostic.CA2227.severity = none

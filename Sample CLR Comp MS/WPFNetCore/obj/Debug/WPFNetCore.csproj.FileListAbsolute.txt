@@ -1,0 +1,11 @@
+C:\Users\ankasani\Desktop\SampleCLRComp_New\BP\Debug\Programs\Debug\WPFNetCore.deps.json
+C:\Users\ankasani\Desktop\SampleCLRComp_New\BP\Debug\Programs\Debug\WPFNetCore.dll
+C:\Users\ankasani\Desktop\SampleCLRComp_New\BP\Debug\Programs\Debug\WPFNetCore.pdb
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\WPFNetCore\obj\Debug\WPFNetCore.csproj.AssemblyReference.cache
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\WPFNetCore\obj\Debug\WPFNetCore.Properties.Resource.resources
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\WPFNetCore\obj\Debug\WPFNetCore.csproj.GenerateResource.cache
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\WPFNetCore\obj\Debug\WPFNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\WPFNetCore\obj\Debug\WPFNetCore.csproj.CoreCompileInputs.cache
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\WPFNetCore\obj\Debug\WPFNetCore.csproj.Up2Date
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\WPFNetCore\obj\Debug\WPFNetCore.dll
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\WPFNetCore\obj\Debug\WPFNetCore.pdb

@@ -1,0 +1,14 @@
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\bin\Debug\net9.0\win-x64\ConsoleApp1.exe
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\bin\Debug\net9.0\win-x64\ConsoleApp1.deps.json
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\bin\Debug\net9.0\win-x64\ConsoleApp1.runtimeconfig.json
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\bin\Debug\net9.0\win-x64\ConsoleApp1.dll
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\bin\Debug\net9.0\win-x64\ConsoleApp1.pdb
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\obj\Debug\net9.0\win-x64\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\obj\Debug\net9.0\win-x64\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\obj\Debug\net9.0\win-x64\ConsoleApp1.AssemblyInfo.cs
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\obj\Debug\net9.0\win-x64\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\obj\Debug\net9.0\win-x64\ConsoleApp1.dll
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\obj\Debug\net9.0\win-x64\refint\ConsoleApp1.dll
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\obj\Debug\net9.0\win-x64\ConsoleApp1.pdb
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\obj\Debug\net9.0\win-x64\ConsoleApp1.genruntimeconfig.cache
+C:\Users\ankasani\Desktop\SampleCLRComp_New\SampleCLRComp\ConsoleApp1\obj\Debug\net9.0\win-x64\ref\ConsoleApp1.dll

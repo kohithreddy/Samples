@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WPFNetCore": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
