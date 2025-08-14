@@ -1,0 +1,26 @@
+pool:
+  name: Azure Pipelines
+  demands:
+  - msbuild
+  - visualstudio
+
+steps:
+- task: NuGetCommand@2
+  displayName: 'NuGet restore'
+
+- task: VSBuild@1
+  displayName: 'Build solution VBWebForm.sln'
+  inputs:
+    solution: VBWebForm.sln
+    vsVersion: 17.0
+    msbuildArgs: '/p:DeployOnBuild=true /p:PublishProfile=FolderProfile'
+
+- powershell: |
+   Write-Host "Contents of PipelineOutcome folder:" 
+   Get-ChildItem -Path "$(Build.SourcesDirectory)\SanthoshRepro\bin\PipelineOutcome" -Recurse
+  displayName: 'PowerShell Script'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    PathtoPublish: '$(Build.SourcesDirectory)\SanthoshRepro\bin\PipelineOutcome '
