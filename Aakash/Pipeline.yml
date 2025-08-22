@@ -1,0 +1,44 @@
+# Agent Queue 'Azure Pipelines' was used with unrecognized Agent Specification, vmImage property must be specified to determine image - https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#software
+resources:
+  repositories:
+  - repository: self
+    type: git
+    ref: refs/heads/jacoco
+jobs:
+- job: Job_1
+  displayName: Agent job 1
+  pool:
+    name: Azure Pipelines
+  steps:
+  - checkout: self
+    fetchDepth: 1
+  - task: NuGetCommand@2
+    displayName: NuGet restore
+    inputs:
+      solution: JaCoCo/JaCoCo.sln
+  - task: VSBuild@1
+    displayName: Build solution JaCoCo/JaCoCo.sln
+    inputs:
+      solution: JaCoCo/JaCoCo.sln
+      logProjectEvents: false
+      enableDefaultLogger: false
+  - task: VSTest@3
+    displayName: VsTest - testAssemblies
+    inputs:
+      testAssemblyVer2: '**\bin\**\*.dll'
+      codeCoverageEnabled: true
+      otherConsoleOptions: /collect:"Code Coverage;Format=Cobertura"
+      publishRunAttachments: false
+  - task: Palmmedia.reportgenerator.reportgenerator-build-release-task.reportgenerator@5
+    displayName: ReportGenerator
+    enabled: False
+    inputs:
+      reporttypes: Cobertura
+      sourcedirs: $(
+      publishCodeCoverageResults: true
+  - task: PublishCodeCoverageResults@1
+    displayName: Publish code coverage from  D:\a\_temp\TestResults\**\
+    enabled: False
+    inputs:
+      summaryFileLocation: ' D:\a\_temp\TestResults\**\'
+...
