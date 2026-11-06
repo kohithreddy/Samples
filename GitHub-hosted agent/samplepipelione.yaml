@@ -1,0 +1,82 @@
+# Author : Kohith Reddy 
+# Date: 05 Nov 2026
+
+trigger: none
+appendCommitMessageToRunName: false
+
+stages:
+- stage: macOS
+  displayName: 'macOS 26 (ARM64)'
+  jobs:
+  - job: macOSJob
+    displayName: 'macOS validation'
+    pool:
+      name: 'GitHub-hosted Agents'
+      vmImage: 'macos-26-arm64'
+    steps:
+    - bash: |
+        echo "===== macOS JOB ====="
+        echo "Start time : $(date -u)"
+        echo "Agent      : $(Agent.Name)"
+        uname -a
+        sw_vers
+        echo "End time   : $(date -u)"
+      displayName: 'Run validation on macOS'
+
+- stage: Linux
+  displayName: 'Ubuntu 24.04 (8-core)'
+  jobs:
+  - job: LinuxJob
+    displayName: 'Linux validation'
+    pool:
+      name: 'GitHub-hosted Agents'
+      vmImage: 'ubuntu-24.04-8-core'
+    steps:
+    - bash: |
+        echo "===== LINUX JOB ====="
+        echo "Start time : $(date -u)"
+        echo "Agent      : $(Agent.Name)"
+        lsb_release -d
+        echo "Cores      : $(nproc)"
+        free -h
+        echo "End time   : $(date -u)"
+      displayName: 'Run validation on Linux'
+
+- stage: Windows
+  displayName: 'Windows Server 2025 + VS2026 (8-core)'
+  jobs:
+  - job: WindowsJob
+    displayName: 'Windows validation'
+    pool:
+      name: 'GitHub-hosted Agents'
+      vmImage: 'windows-2025-vs2026-8-core'
+    steps:
+    - pwsh: |
+        Write-Host "===== WINDOWS JOB ====="
+        Write-Host "Start time : $((Get-Date).ToUniversalTime())"
+        Write-Host "Agent      : $(Agent.Name)"
+        Write-Host "OS         : $($PSVersionTable.OS)"
+        Write-Host "Cores      : $([Environment]::ProcessorCount)"
+        Write-Host "End time   : $((Get-Date).ToUniversalTime())"
+      displayName: 'Run validation on Windows'
+
+# ---------------- Summary ----------------
+- stage: Summary
+  displayName: 'Summary'
+  dependsOn:
+  - macOS
+  - Linux
+  - Windows
+  condition: succeededOrFailed()
+  jobs:
+  - job: SummaryJob
+    displayName: 'Report results'
+    pool:
+      name: 'GitHub-hosted Agents'
+      vmImage: 'macos-26-arm64'
+    steps:
+    - bash: |
+        echo "macOS   : $[ stageDependencies.macOS.result ]"
+        echo "Linux   : $[ stageDependencies.Linux.result ]"
+        echo "Windows : $[ stageDependencies.Windows.result ]"
+      displayName: 'Print stage results'
